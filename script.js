@@ -6,7 +6,7 @@ async function fetchMovies() {
   const inputValue = inputBar.value;
   const API_KEY = "f0f95209";
   const res = await fetch(
-    `http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputValue}`
+    `https://www.omdbapi.com/?apikey=${API_KEY}&s=${inputValue}`
   );
   const data = await res.json();
 
