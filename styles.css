@@ -46,15 +46,15 @@ button {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: start;
-  align-items: start;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin: 0 40px;
 }
 
 .movieCard {
-  margin: 10px;
-  width: 15rem;
+  border: 1px solid black;
+  width: 20rem;
   height: 25em;
   text-align: center;
   color: #eee;
@@ -65,10 +65,12 @@ button {
   justify-content: center;
   background-color: #3f3e3e;
   border-radius: 20px;
+  margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 .movieCard:hover {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 
 .movieCard img {
